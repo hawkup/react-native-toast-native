@@ -16,7 +16,7 @@ var ToastNative = {
                     duration,
                     position,
                     styles) {
-        RCTToastNative.show(message || "This is a toast message", duration || ToastNative.SHORT, position || ToastNative.TOP, styles || {});
+        RCTToastNative.show(message || "", duration || ToastNative.SHORT, position || ToastNative.TOP, styles || {});
     }
 };
 
